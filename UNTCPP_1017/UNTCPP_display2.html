@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display módjai</title>
+
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            font-size: 2.5 em;
+            font-weight: bold;
+        }
+        b{
+            font-size: 1.5em;
+        }
+        .db2, .db3, .db4, .db5{
+            background: green;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            min-width: 250px;
+            max-width: 70vw;
+        }
+        .db1 .item{
+            display: block;
+        }
+        .db2 .item{
+            display: inline;
+        }
+        .db3 .item{
+            display: block;
+        }
+        .db4 .item{
+            display: inline-block;
+        }
+        .db5 .item{
+            margin-right: 10px
+        }
+        .item{
+            background-color: rgb(205, 4, 255);
+            color: black;
+            padding: 5px 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 2px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>A megjelenítési tulajdonságai</h1>
+
+    <b>display: none</b>
+
+    <div class="db1">
+        <span class="item">PTI BSc 1</span>
+        <span class="item">PTI BSc 2</span>
+        <span class="item">PTI BSc 3</span>
+    </div>
+
+    <b>display: inline</b>
+
+    <div class="db2">
+        <span class="item">PTI BSc 1</span>
+        <span class="item">PTI BSc 2</span>
+        <span class="item">PTI BSc 3</span>
+    </div>
+
+    <b>display: block</b>
+
+    <div class="db2">
+        <span class="item">PTI BSc 1</span>
+        <span class="item">PTI BSc 2</span>
+        <span class="item">PTI BSc 3</span>
+    </div>
+
+    <b>display: inline-block</b>
+
+    <div class="db2">
+        <span class="item">PTI BSc 1</span>
+        <span class="item">PTI BSc 2</span>
+        <span class="item">PTI BSc 3</span>
+    </div>
+
+    <b>display: flex</b>
+
+    <div class="db2">
+        <span class="item">PTI BSc 1</span>
+        <span class="item">PTI BSc 2</span>
+        <span class="item">PTI BSc 3</span>
+    </div>
+
+</body>
+</html>
